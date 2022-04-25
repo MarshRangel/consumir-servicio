@@ -1,0 +1,15 @@
+package com.bnamericas;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan
+public class ComsumirServicioApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ComsumirServicioApplication.class, args);
+	}
+
+}
